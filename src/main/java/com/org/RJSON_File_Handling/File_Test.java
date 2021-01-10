@@ -18,7 +18,7 @@ public class File_Test {
         String line;
         Map<String, String> map = null;
         try {
-            map = new ObjectMapper().readValue(filePath, Map.class);
+            //map = new ObjectMapper().readValue(filePath, Map.class);
 
         } catch (Exception ignored) {
             //
